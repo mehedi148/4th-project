@@ -1,0 +1,70 @@
+body{
+
+}
+.hero{
+    display: flex;
+    background-image:url(../image/bg-intro-desktop.png);
+    background-size: cover;
+    height: 625px;
+    width: 100%;
+    
+    background-color: rgb(153,204,255);
+    background-repeat: no-repeat;
+    justify-content: center;
+
+
+}
+
+.wrapper{
+    padding: 80px;
+    height: 200px;
+    width: 300px;
+    color: white;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+.form{
+    padding: 40px ;
+    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+} 
+.content2 p{
+    background-color:rgb(30,62,158);
+    height: 25px;
+    width: 375px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.form form{
+    padding: 30px;
+
+}
+.form input{
+    width: 300px;
+    height: 25px;
+}
+.form footer{
+    padding: 30px;
+}
+.mybtn{
+    background-color: rgb(100,207,38);
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    padding: 10px;
+    transition: all ease;
+
+}
+.mybtn:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer span{
+    color:tomato;
+}
+
